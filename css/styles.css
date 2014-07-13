@@ -1,0 +1,499 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family:'Pacifico';
+  font-size:50px;
+  color:#383838; 
+  font-weight:300;
+}
+h2{
+
+  font-family:'Open Sans', sans-serif;
+  font-size: 2.5em;  /*color:#E6B85C; */
+  margin:auto;
+  font-weight:300;
+
+}
+
+h3,
+h4,
+h5,
+.h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #003A70;  /*blue*/
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight:100;
+  line-height: 1.3;
+  color:black;  /*grey*/
+  
+}
+
+.white {
+  color: #fff;
+}
+
+.resumeHeader {
+  margin:auto;
+  height: 130px;
+}
+
+
+.resumeHeader #myName #myInfo {
+  position:relative;
+  display:inline-block;
+  vertical-align:y middle; 
+}
+
+.resumeArea #myInfo {
+  float:right;
+  padding-top:20px;
+  margin:left;
+}
+
+.resumeArea #myName {
+  float:left;
+}
+
+
+
+/*
+.navbar-default .navbar-brand, 
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus {
+  color: #003399;
+  
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  opacity: 0.5;
+ 
+
+  padding-top:0px;
+  text-align:center; 
+  height:68px;
+
+
+  margin:auto;
+  position:absolute;
+
+
+}*/
+
+.navbar-default .navbar-nav > li > a {
+  color: #999;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a.navbar-active {
+  color: #003399;
+}
+
+.transparent {
+  background-color: transparent;
+  border: none;
+}
+
+.transparent-active {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+/* Full Page Image Header Area */
+
+
+
+.header { 
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/goldengate.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 150px;
+  text-align: center;
+  
+
+}
+
+.vert-text #myName {
+  background-color:#FFFFFF;
+  opacity:.65;
+  text-align: center;
+  border-radius: 5px;
+  height:50px;
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+
+
+}
+.vert-text h1 { /** MY NAME **/
+  padding:5px;
+  margin:auto;
+  font-size: 2.5em;
+  color:#000000;
+  font-weight:300;
+}
+
+.vert-text #mainLinks {   /*DIV SURROUNDING LINKS*/
+  margin-top:20px;
+  background-color:#FFFFFF;
+  opacity:.65;
+  text-align: center;
+  border-radius: 5px;
+  height:40px;
+  width:400px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+  
+  margin-bottom:auto; 
+  
+}
+
+.vert-text a {
+  font-size:15px;
+  padding:15px;
+  margin-top:5px;
+  margin-bottom:auto;
+  font-family:'Open Sans';
+  color:black;
+  padding-top:5px;
+  font-weight:400px;
+  /*font-color: #D19000;*/
+  
+}
+.vert-text a:hover {
+  color: #FF9933;
+  text-decoration: none;
+}
+
+
+/* Intro */
+
+.full {
+  height: 800px;
+  width:100%;
+}
+.intro {
+  padding-top:50px;
+  padding-bottom:120px;
+  height: 100%;
+}
+
+.intro h3 {
+  font-family:'Open Sans', sans-serif;
+  font-size:2em;
+  /*color:#E6B85C; */
+  color:black;
+  font-weight:300;
+  margin-right:auto;
+  margin-left:auto;
+  text-align: center;
+  vertical-align: top;
+
+
+
+}
+.intro h4 {
+  font-family:'Open Sans', sans-serif;
+  font-size:30px;
+  /*color:#E6B85C; */
+  color:black;
+  font-weight:300;
+  margin-right:auto;
+  margin-left:auto;
+
+}
+
+
+
+.intro #socialMedia img {
+  height:52px;
+  width:52px;
+
+}
+.intro img {
+  height:250px;
+  width:250px;
+  border-radius: 100%;
+  /*float:left;*/
+  margin-right:20px;
+}
+
+
+.intro h2 {
+  font-family:'Pacifico';
+  font-size:40px;
+  color:#383838;
+  
+
+}
+.blah {
+  font-weight:600;
+  font-size: 16px;
+
+}
+.resumeArea .blockone {
+  width:700px;
+  float:left;
+  padding-left:40px;
+  display:inline-block;
+}
+
+.resumeArea .blockone h4{
+  font-family:'Pacifico';
+  font-size:22px;
+  color:#2554C7;
+  font-weight:400;
+
+}
+.resumeArea h2 {
+  color:#2554C7
+}
+.resumeArea .blocktwo h4  {
+
+  font-family:'Pacifico';
+  font-size:22px;
+  color:#2554C7;
+  font-weight:400;
+
+}
+
+.resumeArea {
+  background-image: url(../img/resume.jpg);
+  background-repeat: repeat;
+  padding-top:100px;
+  padding-bottom:100px;
+  height:900px;
+}
+
+.resumeArea .row {
+  background-color:white;
+  width:1100px;
+  padding:30px;
+  margin:auto;
+
+
+}
+.resumeArea .blockone .blocktwo {
+
+  display:inline;
+}
+
+#date {
+  float:right;
+  
+
+}
+.blockone li {
+  font-family:'Open Sans', sans-serif;
+  font-size:13px;
+  line-height: 24px;
+  font-weight:300;
+
+
+}
+
+.blockone a{
+  color:#2554C7;
+}
+
+.resumeArea .blocktwo {
+  float:right;
+  width:300px;
+  display:inline-block;
+}
+
+.blocktwo p {
+  font-size:12px;
+  line-height: 24px;
+}
+
+
+.blocktwo hr {
+  margin:5px;
+}
+
+.blockone hr {
+  margin:5px;
+}
+
+
+.resume div {
+  display: inline;
+}
+/* Services */
+
+.services {
+ /* background: #7fbbda;*/
+  padding: 50px 0;
+  height: 50%;
+}
+
+.service-item {
+  margin-bottom: 15px;
+}
+
+i.service-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+/* Callout */
+
+.callout {
+  color: #ffffff;
+  display: table;
+  height: 60%;
+  width: 100%;
+  background: url(../img/bread.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Portfolio */
+
+.portfolio {
+  padding: 50px 0;
+}
+
+
+
+/* Call to Action */
+
+.call-to-action {
+  color: #ffffff;
+  background: #4F758B;
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+/* Map */
+
+.map {
+  height: 500px;
+}
+
+/* Footer */
+
+footer {
+  padding: 0px 0;
+}
+
+.top-scroll {
+  margin-top: 50px;
+}
+
+.top-scroll a {
+  text-decoration: none;
+  color: #DBA901;
+}
+
+i.scroll {
+  color: #333333;
+}
+
+i.scroll:hover {
+  color: #0a5175;
+}
+
+/*Buttons*/
+.btn-lg {
+  padding: 6px 12px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 0px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  border: none;  
+}
+.btn-primary {
+  border: none;
+}
+
+#resume {
+  line-height: 1.2;
+}
+
+
+.intro table, td, th {
+  vertical-align: top;
+
+  padding:10px;
+  
+  margin:auto;
+  max-width:150px;
+  max-height:25px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+.resumeArea h3 {
+  color:#E6BC69;
+  font-weight: 
+}
+
+
+.top-button {
+  float:right;
+
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(../img/campinile.jpg) no-repeat center center scroll; 
+  }
+
+  .callout {
+	background: url(../img/callout.jpg) no-repeat center center scroll; 
+  }
+
+  .map {
+	height: 75%;
+  }
+
+}
+
+/*http://thepantry.ucdavis.edu/*/
