@@ -228,7 +228,7 @@ p {
 }
 .blah {
   font-weight:600;
-  font-size: 16px;
+  font-size: 15px;
 
 }
 
@@ -250,7 +250,7 @@ p {
 
 .resumeArea .blockone h4{
   font-family:'Open Sans', sans-serif;
-  font-size:20px;
+  font-size:19px;
   color:#2554C7;
 
 }
@@ -260,7 +260,7 @@ p {
 .resumeArea .blocktwo h4  {
 
   font-family:'Open Sans', sans-serif;
-  font-size:20px;
+  font-size:18px;
   color:#2554C7;
 
 }
