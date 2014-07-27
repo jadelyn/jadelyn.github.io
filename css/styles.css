@@ -38,9 +38,9 @@ h5,
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight:100;
-  line-height: 1.3;
+  line-height: ;
   color:black;  /*grey*/
-  
+  font-size:13px;
 }
 
 .white {
@@ -228,7 +228,7 @@ p {
 }
 .blah {
   font-weight:600;
-  font-size: 15px;
+  font-size: 14px;
 
 }
 
