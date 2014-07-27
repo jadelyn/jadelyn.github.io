@@ -7,10 +7,16 @@ body {
 }
 
 h1 {
-  font-family:'Pacifico';
-  font-size:50px;
-  color:#383838; 
-  font-weight:300;
+  font-family:'Open Sans', sans-serif;
+  font-size:45px;
+  color:black; 
+  font-weight: 300;
+}
+
+.vert-text #myName h1{
+  font-family:'Pacifico', sans-serif; 
+  font-size:33px;
+  color:black; 
 }
 h2{
 
@@ -250,8 +256,8 @@ p {
 
 
 .intro h2 {
-  font-family:'Pacifico';
-  font-size:40px;
+  font-family:'Open Sans', sans-serif;
+  font-size:35px;
   color:#383838;
   
 
@@ -269,10 +275,9 @@ p {
 }
 
 .resumeArea .blockone h4{
-  font-family:'Pacifico';
-  font-size:22px;
+  font-family:'Open Sans', sans-serif;
+  font-size:20px;
   color:#2554C7;
-  font-weight:400;
 
 }
 .resumeArea h2 {
@@ -280,10 +285,9 @@ p {
 }
 .resumeArea .blocktwo h4  {
 
-  font-family:'Pacifico';
-  font-size:22px;
+  font-family:'Open Sans', sans-serif;
+  font-size:20px;
   color:#2554C7;
-  font-weight:400;
 
 }
 
