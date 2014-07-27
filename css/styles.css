@@ -71,28 +71,6 @@ p {
 
 
 
-/*
-.navbar-default .navbar-brand, 
-.navbar-default .navbar-brand:hover, 
-.navbar-default .navbar-brand:focus {
-  color: #003399;
-  
-  background-color: #FFFFFF;
-  border-radius: 5px;
-  opacity: 0.5;
- 
-
-  padding-top:0px;
-  text-align:center; 
-  height:68px;
-
-
-  margin:auto;
-  position:absolute;
-
-
-}*/
-
 .navbar-default .navbar-nav > li > a {
   color: #999;
   font-family: 'Open Sans', sans-serif;
@@ -114,9 +92,6 @@ p {
 }
 
 /* Full Page Image Header Area */
-
-
-
 .header { 
   display: table;
   height: 100%;
@@ -217,17 +192,8 @@ p {
   text-align: center;
   vertical-align: top;
 
-
-
 }
 
-.container-fluid{
-  margin-top:30px;
-}
-
-.col-md-4 {
-  text-align: left;
-}
 .intro h4 {
   font-family:'Open Sans', sans-serif;
   font-size:30px;
@@ -238,8 +204,6 @@ p {
   margin-left:auto;
 
 }
-
-
 
 .intro #socialMedia img {
   height:52px;
@@ -267,6 +231,16 @@ p {
   font-size: 16px;
 
 }
+
+/* 3 Column about me area */
+.container-fluid{
+  margin-top:30px;
+}
+
+.col-md-4 {
+  text-align: left;
+}
+
 .resumeArea .blockone {
   width:700px;
   float:left;
@@ -354,29 +328,7 @@ p {
 .resume div {
   display: inline;
 }
-/* Services */
 
-.services {
- /* background: #7fbbda;*/
-  padding: 50px 0;
-  height: 50%;
-}
-
-.service-item {
-  margin-bottom: 15px;
-}
-
-i.service-icon {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle; 
-  text-align: center;
-}
 
 /* Callout */
 
@@ -465,19 +417,6 @@ i.scroll:hover {
 }
 
 
-.intro table, td, th {
-  vertical-align: top;
-
-  padding:10px;
-  
-  margin:auto;
-  max-width:150px;
-  max-height:25px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top:auto;
-  margin-bottom: auto;
-}
 
 .resumeArea h3 {
   color:#E6BC69;
