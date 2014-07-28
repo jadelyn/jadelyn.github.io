@@ -36,7 +36,7 @@ h5,
 
 p {
   font-family: 'Open Sans', sans-serif;
-  font-weight:300;
+  font-weight:400;
   line-height: ;
   color:black;  /*grey*/
   font-size:14px;
@@ -288,14 +288,15 @@ p {
 
 #date {
   float:right;
+  font-weight:400;
   
 
 }
 .blockone li {
   font-family:'Open Sans', sans-serif;
   font-size:13px;
-  line-height: 24px;
-  font-weight:300;
+  line-height: 22px;
+  font-weight:400;
 
 
 }
