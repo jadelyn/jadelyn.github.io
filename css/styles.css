@@ -182,7 +182,7 @@ p {
 
 .intro h3 {
   font-family:'Open Sans', sans-serif;
-  font-size:2em;
+  font-size:1.9em;
   /*color:#E6B85C; */
   color:black;
   font-weight:300;
@@ -252,6 +252,7 @@ p {
   font-family:'Open Sans', sans-serif;
   font-size:19px;
   color:#2554C7;
+  font-weight:600;
 
 }
 .resumeArea h2 {
@@ -262,6 +263,8 @@ p {
   font-family:'Open Sans', sans-serif;
   font-size:18px;
   color:#2554C7;
+    font-weight:600;
+
 
 }
 
