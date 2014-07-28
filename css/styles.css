@@ -10,7 +10,7 @@ h1 {
   font-family:'Open Sans', sans-serif;
   font-size:45px;
   color:black; 
-  font-weight: 300;
+  font-weight:300;
 }
 
 .vert-text #myName h1{
@@ -23,7 +23,6 @@ h2{
   font-family:'Open Sans', sans-serif;
   font-size: 2.5em;  /*color:#E6B85C; */
   margin:auto;
-  font-weight:300;
 
 }
 
@@ -220,9 +219,10 @@ p {
 
 
 .intro h2 {
-  font-family:'Open Sans', sans-serif;
+  font-family:'Pacifico', sans-serif;
   font-size:35px;
   color:#383838;
+
   
 
 }
@@ -317,11 +317,11 @@ p {
 
 
 .blocktwo hr {
-  margin:5px;
+  margin-top:-10px;
 }
 
 .blockone hr {
-  margin:5px;
+  margin-top:-10px;
 }
 
 
