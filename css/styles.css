@@ -37,10 +37,10 @@ h5,
 
 p {
   font-family: 'Open Sans', sans-serif;
-  font-weight:100;
+  font-weight:300;
   line-height: ;
   color:black;  /*grey*/
-  font-size:13px;
+  font-size:14px;
 }
 
 .white {
@@ -393,6 +393,11 @@ i.scroll:hover {
   color: #0a5175;
 }
 
+.print {
+  float:right;
+  margin-top:25px;
+}
+
 /*Buttons*/
 .btn-lg {
   padding: 6px 12px;
@@ -426,6 +431,7 @@ i.scroll:hover {
 
 .top-button {
   float:right;
+
 
 }
 
