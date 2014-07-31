@@ -51,6 +51,10 @@ p {
   height: 130px;
 }
 
+.resumeHeader h1 {
+  font-family: 'Pacifico', sans-serif;
+  font-size:2.8em;
+}
 
 .resumeHeader #myName #myInfo {
   position:relative;
@@ -210,8 +214,8 @@ p {
 
 }
 .intro img {
-  height:250px;
-  width:250px;
+  height:200px;
+  width:200px;
   border-radius: 100%;
   /*float:left;*/
   margin-right:20px;
@@ -220,7 +224,7 @@ p {
 
 .intro h2 {
   font-family:'Pacifico', sans-serif;
-  font-size:35px;
+  font-size:33px;
   color:#383838;
 
   
@@ -291,15 +295,17 @@ p {
 
 #date {
   float:right;
+  color:black;
   font-weight:400;
   
 
 }
 .blockone li {
   font-family:'Open Sans', sans-serif;
-  font-size:13px;
+  font-size:14px;
   line-height: 22px;
-  font-weight:400;
+  font-weight:43;
+  color:black;
 
 
 }
@@ -315,8 +321,10 @@ p {
 }
 
 .blocktwo p {
-  font-size:12px;
-  line-height: 24px;
+  font-size:13px;
+  line-height: 22px;
+    font-weight:400;
+
 }
 
 
