@@ -7,20 +7,22 @@ body {
 }
 
 h1 {
-  font-family:'Open Sans', sans-serif;
+  font-family:'Source Sans Pro', sans-serif;
   font-size:45px;
   color:black; 
   font-weight:300;
 }
 
 .vert-text #myName h1{
-  font-family:'Pacifico', sans-serif; 
-  font-size:33px;
-  color:black; 
+  font-family: 'Source Sans Pro', sans-serif; 
+  font-size: 38px;
+  color: black; 
+  font-weight: 300;
 }
+
 h2{
 
-  font-family:'Open Sans', sans-serif;
+  font-family:'Source Sans Pro', sans-serif;
   font-size: 2.5em;  /*color:#E6B85C; */
   margin:auto;
 
@@ -30,16 +32,16 @@ h3,
 h4,
 h5,
 .h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #003A70;  /*blue*/
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight:400;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:300;
   line-height: ;
   color:black;  /*grey*/
-  font-size:14px;
+  font-size:16px;
 }
 
 .white {
@@ -48,18 +50,22 @@ p {
 
 .resumeHeader {
   margin:auto;
-  height: 130px;
+  height: 100px;
 }
 
 .resumeHeader h1 {
-  font-family: 'Pacifico', sans-serif;
-  font-size:2.8em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:50px;
+  font-weight:300;
+  /*color: #6dbcdb;*/
+
 }
 
 .resumeHeader #myName #myInfo {
   position:relative;
   display:inline-block;
-  vertical-align:y middle; 
+  vertical-align: middle; 
+  font-weight: 600;
 }
 
 .resumeArea #myInfo {
@@ -76,7 +82,7 @@ p {
 
 .navbar-default .navbar-nav > li > a {
   color: #999;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a:focus,
@@ -149,20 +155,19 @@ p {
   margin-left:auto;
   margin-right:auto;
   padding:10px;
-  
   margin-bottom:auto; 
   
 }
 
 .vert-text a {
-  font-size:15px;
+  font-size:16px;
   padding:15px;
   margin-top:5px;
   margin-bottom:auto;
-  font-family:'Open Sans';
+  font-family:'Source Sans Pro';
   color:black;
   padding-top:5px;
-  font-weight:400px;
+  font-weight:300px;
   /*font-color: #D19000;*/
   
 }
@@ -185,20 +190,17 @@ p {
 }
 
 .intro h3 {
-  font-family:'Open Sans', sans-serif;
+  font-family:'Source Sans Pro', sans-serif;
   font-size:1.9em;
   /*color:#E6B85C; */
   color:black;
   font-weight:300;
-  margin-right:auto;
-  margin-left:auto;
-  text-align: center;
-  vertical-align: top;
+
 
 }
 
 .intro h4 {
-  font-family:'Open Sans', sans-serif;
+  font-family:'Source Sans Pro', sans-serif;
   font-size:30px;
   /*color:#E6B85C; */
   color:black;
@@ -223,16 +225,17 @@ p {
 
 
 .intro h2 {
-  font-family:'Pacifico', sans-serif;
-  font-size:33px;
+  font-family:'Source Sans Pro', sans-serif;
+  font-size:30px;
   color:#383838;
+  font-weight: 300;
 
   
 
 }
 .blah {
-  font-weight:600;
-  font-size: 14px;
+  font-weight:400;
+  font-size: 18px;
 
 }
 
@@ -253,21 +256,25 @@ p {
 }
 
 .resumeArea .blockone h4{
-  font-family:'Open Sans', sans-serif;
-  font-size:18px;
-  color:#2554C7;
-  font-weight:600;
+  font-family:'Source Sans Pro', sans-serif;
+  font-size:20px;
+  color:#6dbcdb;
+  font-weight:400;
 
 }
 .resumeArea h2 {
   color:#2554C7
 }
+
+.resumeHeader p {
+  font-weight: 300;
+}
 .resumeArea .blocktwo h4  {
 
-  font-family:'Open Sans', sans-serif;
-  font-size:18px;
-  color:#2554C7;
-    font-weight:600;
+  font-family:'Source Sans Pro', sans-serif;
+  font-size:20px;
+  color:#6dbcdb;
+    font-weight:400;
 
 
 }
@@ -296,15 +303,15 @@ p {
 #date {
   float:right;
   color:black;
-  font-weight:400;
+  font-weight:300;
   
 
 }
 .blockone li {
-  font-family:'Open Sans', sans-serif;
-  font-size:14px;
-  line-height: 22px;
-  font-weight:43;
+  font-family:'Source Sans Pro', sans-serif;
+  font-size:16px;
+  line-height: 20px;
+  font-weight:300;
   color:black;
 
 
@@ -321,9 +328,9 @@ p {
 }
 
 .blocktwo p {
-  font-size:13px;
-  line-height: 22px;
-    font-weight:400;
+  font-size:14px;
+  line-height: 20px;
+    font-weight:300;
 
 }
 
@@ -444,6 +451,29 @@ i.scroll:hover {
 .top-button {
   float:right;
 
+}
+
+.section {
+  height:45px;
+  width:90px;
+  background-color: black;
+  float:left;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  color: white;
+  vertical-align: middle;
+
+
+}
+
+.section h4 {
+  color: white;
+  vertical-align: middle;
+  font-size:20px;
+  text-align: center;
+
+
 
 }
 
@@ -452,7 +482,7 @@ i.scroll:hover {
 @media (max-width: 768px) {
 	
   .header {
-	background: url(../img/campinile.jpg) no-repeat center center scroll; 
+	background: url(../img/goldengate.jpg) no-repeat center center scroll; 
   }
 
   .callout {
@@ -462,7 +492,4 @@ i.scroll:hover {
   .map {
 	height: 75%;
   }
-
 }
-
-/*http://thepantry.ucdavis.edu/*/
