@@ -15,7 +15,7 @@ h1 {
 
 .vert-text #myName h1{
   font-family: 'Source Sans Pro', sans-serif; 
-  font-size: 38px;
+  font-size: 36px;
   color: black; 
   font-weight: 300;
 }
@@ -50,11 +50,11 @@ p {
 
 .resumeHeader {
   margin:auto;
-  height: 100px;
+  height: 80px;
 }
 .resumeHeader h1 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size:50px;
+  font-size:40px;
   font-weight:300;
   /*color: #6dbcdb;*/
 
@@ -255,7 +255,7 @@ p {
   display:inline-block;
 }
 
-.resumeArea .blockone h4{
+.resumeArea  h4{
   font-family:'Source Sans Pro', sans-serif;
   font-size:20px;
   color:#6dbcdb;
@@ -307,7 +307,7 @@ p {
   
 
 }
-.blockone li {
+.resume li {
   font-family:'Source Sans Pro', sans-serif;
   font-size:16px;
   line-height: 20px;
@@ -315,6 +315,20 @@ p {
   color:black;
 
 
+}
+li {
+    font-family:'Source Sans Pro', sans-serif;
+  font-size:16px;
+  line-height: 20px;
+  font-weight:300;
+  color:black;
+}
+.resumeHeader li {
+    font-family:'Source Sans Pro', sans-serif;
+  font-size:16px;
+  line-height: 20px;
+  font-weight:300;
+  color:black;
 }
 
 .blockone a{
