@@ -269,7 +269,7 @@ p {
 .resumeHeader p {
   font-weight: 300;
 }
-.resumeArea .blocktwo h4  {
+ /**.resumeArea .blocktwo h4  {
 
   font-family:'Source Sans Pro', sans-serif;
   font-size:20px;
@@ -277,7 +277,7 @@ p {
     font-weight:400;
 
 
-}
+} **/
 
 .resumeArea {
   background-image: url(../img/resume.jpg);
@@ -335,16 +335,12 @@ li {
   color:#2554C7;
 }
 
-.resumeArea .blocktwo {
-  float:right;
-  width:300px;
-  display:inline-block;
-}
 
-.blocktwo p {
+
+.block2 p {
   font-size:14px;
-  line-height: 20px;
-    font-weight:300;
+  line-height: 23px;
+  font-weight:300;
 
 }
 
