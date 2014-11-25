@@ -1,0 +1,28 @@
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;  
+	font-size:45px;
+	color:black; 
+	font-weight:300;
+
+}
+.header {
+	display: table-cell;
+	vertical-align: middle;
+	padding-bottom: 150px;
+	text-align: center;
+}
+
+.header h1 { 
+  padding:5px;
+  margin:auto;
+  font-size: 2.5em;
+  color:#000000;
+  font-weight:300;
+}

@@ -5,7 +5,9 @@
    
     <!-- jQuery UI -->
     <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/>
-    
+    <script type='text/javascript' src='js/script.js'></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -14,86 +16,100 @@
     <link href="css/styles.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700,400italic,600italic' rel='stylesheet' type='text/css'>
 
-    <title>Jade Hua</title>
+    <!--<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,400,300,700,600' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
+
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    -->
+
+     <title>Jade Hua</title>
 
   </head>
 
   <body>
-    <!-- Full Page Image Header & Nav Bar-->
     <div id="top" class="header">
-
       <div class="vert-text">
-          <div class="my-name">
-            <h1>Jade Hua</h1>
-          </div>
-
-          <div id="nav-bar">
-            <a href="#about">ABOUT</a>
-            <a href=".resumeHeader">RESUME</a>
-            <a target="_blank" href="https://github.com/jadelyn">GITHUB</a>
-            <a href="mailto:jadehua@berkeley.edu">CONTACT</a>
-          </div>
-
+        <div class="my-name">
+        <h1>Jade Hua</h1>
       </div>
-    </div>
-   
-    <!-- ABOUT ME -->
-    <div id="about" class="intro">
-        <div class="section">
-          <h4>ABOUT</h4>
-        </div>
-
-         
-
-      <div class="container">
-        <a class='top-button' href='.header'><i class="fa fa-arrow-circle-up fa-3x"></i></a>
-
-      <div class="row" style="margin-top:120px;">
-        <div class="col-md-3" style="margin-bottom:20px;">
-          <center><img src="img/profPic.jpg"/></center>
-        </div> 
-
-        <div class="col-md-8">
-            <h2><i class="fa fa-user"></i> About Me</h2><br/>
-            <p>I'm a student first, but also always willing to share knowledge with others. I strongly believe in the power of technology, and how it can directly shape our lives — whether that be through open source educational platforms, or machine learning algorithms that help diagnose rare forms of cancer. We all have a purpose in this world to make an impact, and I believe that computer science provides exponential opportunities to do so.</p>
-            
-        </div>
-
-        <div class="col-md-4">
-          <h3><i class="fa fa-university"></i> Education</h3>
-          <p>I graduated from Los Altos High School in 2012. I'm currently a junior at UC Berkeley (Go Bears!) studying Electrical Engineeering and Computer Science.</p>
-          <p>Some interesting classes I've taken so far are: Data Structures and Algorithms, Great Ideas in Computer Architecture, iOS Game Development, and Artificial Intelligence.</p> 
-        </div>
-
-        <div class="col-md-4">
-          <h3><i class="fa fa-rocket"></i> Work Experience</h3>
-          <p>This past summer (2014), I interned at IBM on the B2B Continuous Engineering team.</p>
-          <p>On a team with two other interns, I developed a sleek, modernized web console for the Connect:Direct file transfer system through utilizing IBM's 10x JAVA framework and leveraging Connect:Direct REST APIs.</p>
-        </div>
-           
-      </div>
-
-      <div class="row" style="margin-top:40px;">
-        <div class="col-md-6 col-md-offset-4">
-          <center>
-          <!-- Social Media Icons -->
-          <a href="https://github.com/jadelyn"><i class="fa fa-github-square fa-3x"></i></a>
-          <a href="https://www.linkedin.com/pub/jade-hua/8b/429/591/"><i class="fa fa-linkedin-square fa-3x"></i> </a>
-          <a href="https://plus.google.com/u/0/108891732508163391102/posts"><i class="fa fa-google-plus-square fa-3x"></i></a>
-        </center>
-
         
+      </div>
+    </div>
+
+
+    
+  
+    <!--ABOUT ME AREA-->
+    <div class="full">
+
+      <div id="about" class="intro">
+
+           <div class="section">
+
+            <h4>About</h4>
+      </div>
+
+        <div class="container">
+          <div class="row">
+            <a class='top-button' href='.header'><i class="fa fa-arrow-circle-up fa-3x"></i></a>
+  
+
+    <br><br><br><br><br>
+  <div class="container-fluid">
+           <div class="row">
+      <div class="col-md-3">
+        <img src="img/profPic.jpg"/>
+      </div>
+
+      <div class="col-md-8">
+        <h2><i class="fa fa-user"></i> About Me</h2><br>
+        <p>I'm a student first, but also always willing to share knowledge with others. I strongly believe in the power of technology, and how it can directly shape our lives — whether that be through open source educational platforms, or machine learning algorithms that help diagnose rare forms of cancer. We all have a purpose in this world to make an impact, and I believe that computer science provides exponential opportunities to do so.
+        </div>
+          
+          
+            
+       
+            <div class="col-md-4">
+              <h3><i class="fa fa-university"></i> Education</h3>
+
+              <p>I graduated from Los Altos High School in 2012. I'm currently a junior at UC Berkeley (Go Bears!) studying Electrical Engineeering and Computer Science.<br><br> Some interesting classes I've taken so far are: Data Structures and Algorithms, Great Ideas in Computer Architecture, iOS Game Development, and Artificial Intelligence.</p>
+            </div>
+            <div class="col-md-4">
+              <center><h3><i class="fa fa-rocket"></i> Work Experience</h3></center>
+              <p>This past summer (2014), I interned at IBM on the B2B Continuous Engineering team. <br><br>
+
+                On a team with two other interns, I developed a sleek, modernized web console for the Connect:Direct file transfer system through utilizing IBM's 10x JAVA framework and leveraging Connect:Direct REST APIs.
+              
+
+
+                </div>
+           </div>
+          </div>
+
+          <br><br><br>
+          <div class="col-md-6 col-md-offset-6"
+            <!-- Social Media Icons -->
+            <a href="https://github.com/jadelyn"><i class="fa fa-github-square fa-3x"></i></a>
+            <a href="https://www.linkedin.com/pub/jade-hua/8b/429/591/"><i class="fa fa-linkedin-square fa-3x"></i> </a>
+            <a href="https://plus.google.com/u/0/108891732508163391102/posts"><i class="fa fa-google-plus-square fa-3x"></i></a>
+
+          </center>
+        
+          </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
+    <!-- /ABOUT ME-->
 
 
     <!-- RESUME AREA -->
-    <!--
      <div class="full">
 
       <div id="resume" class="resumeArea">
@@ -213,17 +229,13 @@
         </div>
       </div>
 
--->
+
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script type='text/javascript' src='js/script.js'></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 
     <!-- Custom JavaScript -->
     <script src="js/script.js"></script>
-
-
 
   </body>
 

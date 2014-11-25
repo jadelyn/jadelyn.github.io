@@ -1,7 +1,9 @@
 /* Global Styles */
 
 
-
+header{
+  font-family: 'Josefin Sans', sans-serif;  
+}
 html,
 body {
   height: 100%;
@@ -20,17 +22,10 @@ h1 {
 h2{
   font-size: 2.5em;  /*color:#E6B85C; */
   margin:auto;
-  font-family: 'Josefin Sans', sans-serif;  
-  text-align: center;
-
 
 }
 
-h3 {
-font-family: 'Josefin Sans', sans-serif;  
-  text-align: center;
-
-  },
+h3,
 h4,
 h5,
 .h6 {
@@ -38,10 +33,10 @@ h5,
 }
 
 p {
-  font-weight:400;
+  font-weight:300;
   line-height: ;
   color:black;  /*grey*/
-  font-size:17px;
+  font-size:16px;
 }
 
 /* Full Page Image Header Area */
@@ -68,26 +63,24 @@ p {
 
 }
 
-.vert-text .my-name { /* Div surrounding my name */
+.center-block #my-name { /* Div surrounding my name */
   background-color:#FFFFFF;
   opacity:.65;
   border-radius: 5px;
   height:50px;
   width:300px;
-  margin-left:auto;
-  margin-right:auto;
-  display:table;
+ 
+  /*display:table; */
 
 }
-.vert-text .my-name h1 { /* My name */
-  display: table-cell;  
-  vertical-align: middle;
+.center-block #my-name h1 { /* My name */
+ /* display: table-cell;  */
   font-size: 2.5em;
   font-family: 'Josefin Sans', sans-serif;  
   font-weight:400;
 }
 
-.vert-text #nav-bar {   /*DIV SURROUNDING LINKS*/
+.center-block #nav-bar {   /*DIV SURROUNDING LINKS*/
   margin-top:20px;
   background-color:#FFFFFF;
   opacity:.65;
@@ -97,18 +90,19 @@ p {
   width:400px;
   margin-left:auto;
   margin-right:auto;
-  display:table;
+  padding:10px;
+  margin-bottom:auto; 
   
 }
 
 .vert-text a {
   font-size:16px;
+  padding:15px;
   margin-top:5px;
   margin-bottom:auto;
   color:black;
-  display: table-cell;
-  vertical-align: middle;
-  font-weight:400;
+  padding-top:5px;
+  font-weight:300px;
   /*font-color: #D19000;*/
   
 }
@@ -180,14 +174,13 @@ p {
 /* Intro */
 
 .full {
-  height: 100%;
+  height: 800px;
   width:100%;
 }
 .intro {
   padding-top:50px;
   padding-bottom:120px;
   height: 100%;
-  width:100%;
 }
 
 .intro h3 {
@@ -460,8 +453,6 @@ i.scroll:hover {
 }
 
 .section {
-  display: table;
-
   height:45px;
   width:90px;
   background-color: black;
@@ -470,7 +461,7 @@ i.scroll:hover {
   border-bottom-right-radius: 5px;
 
   color: white;
-
+  vertical-align: middle;
 
 
 }
@@ -478,11 +469,9 @@ i.scroll:hover {
 .section h4 {
   color: white;
   vertical-align: middle;
-  font-size:18px;
+  font-size:20px;
   text-align: center;
-  font-family: 'Josefin Sans', sans-serif;  
-  display: table-cell;
-  font-weight:400;
+
 
 
 }
