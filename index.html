@@ -5,241 +5,236 @@
    
     <!-- jQuery UI -->
     <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css'/>
-    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type='text/javascript' src='js/script.js'></script>
+
+
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" rel="javascript">
+
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Add custom CSS here -->
     <link href="css/styles.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
 
     <title>Jade Hua</title>
 
   </head>
 
   <body>
+<!--     <nav class="navbar transparent navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">JH</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">About Me</a></li>
+            <li><a href="../navbar-static-top/">Experience</a></li>
+            <li><a href="../navbar-static-top/">Github</a></li>
+            <li><a href="../navbar-static-top/">LinkedIn</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+    
+
+
     <!-- Full Page Image Header & Nav Bar-->
     <div id="top" class="header">
       <div class="vert-text">
      
           <div clas="row">
-            <div class="col-md-4 col-md-offset-4">
-              <center>
-              <div class="my-name">
-                <h1>Jade Hua</h1>
-              </div>
-            </center>
+            <div class="col-md-6 col-md-offset-3">
+                <div class="row" style="margin-bottom:5%;">
+                  <a class="brand" href="#">JH</a>
+                </div>  
+
+                <div class="row">
+                   <ul class="myLinks">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#exp">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+
+                    <li><a href="http://github.com/jadelyn" target="_blank">Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/jadehua" target="_blank">LinkedIn</a></li>
+                    
+                  </ul>
+                </div>
+
+                <div class="row">
+                <a href="#about"><h1 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h1></a>
+
+                </div>
+
             </div>
           </div>
-
-          <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-              <center>
-              <div id="nav-bar">
-                <a href="#about">ABOUT</a>
-                <a href="#resume">RESUME</a>
-                <a target="_blank" href="https://github.com/jadelyn">GITHUB</a>
-                <a href="https://www.linkedin.com/pub/jade-hua/8b/429/591/">LINKEDIN</a>
-              </div>
-            </div>
-        </div>
-
-    </div>
-  </div>
-   
-    <!-- ABOUT ME -->
-    <div id="about" class="intro">
-        <div class="section">
-          <h4>About</h4>
-        </div>
 
          
-
-      <div class="container">
-        <a class='top-button' href='.header'><i class="fa fa-arrow-circle-up fa-3x"></i></a>
-
-      <div class="row" style="margin-top:120px;">
-        <div class="col-md-3" style="margin-bottom:20px;">
-          <center><img src="img/profPic.jpg"/></center>
-        </div> 
-
-        <div class="col-md-8">
-            <h2><i class="fa fa-user"></i> About Me</h2><br/>
-            <p>I'm a student first, but also always willing to share knowledge with others. I strongly believe in the power of technology, and how it can directly shape our lives — whether that be through open source educational platforms, or machine learning algorithms that help diagnose rare forms of cancer. We all have a purpose in this world to make an impact, and I believe that computer science provides exponential opportunities to do so.</p>
-
-            
         </div>
 
-        <div class="col-md-4">
-          <h3><i class="fa fa-university"></i> Education</h3>
-          <p>I graduated from Los Altos High School in 2012. I'm currently a junior at UC Berkeley (Go Bears!) studying Electrical Engineeering and Computer Science.</p>
-          <p>Some interesting classes I've taken so far are: Data Structures and Algorithms, Great Ideas in Computer Architecture, iOS Game Development, Artificial Intelligence, and Efficient Algorithms and Intractable Problems.</p> 
+    </div>
+
+    <div class="container-fluid">
+      <a class='top-button' href='#top'><i class="fa fa-arrow-circle-up fa-3x"></i></a>
+    </div>
+
+    <div class="container">
+      <div id="about" class="intro">
+       
+
+
+        <div class="row" style="margin-top:3%;">
+         
+
+          <div class="col-md-9">
+              <h2><i class="glyphicon glyphicon-console"></i> Hello World!</h2><br/>
+              <p>I'm a senior at UC Berkeley studying <b>Electrical Engineering and Computer Science</b>. I'm a Software Engineer interested in mobile/backend development and product management.
+              </p>
+              <p>I'm passionate about the power technology holds to shape our lives - whether that be through <b>open source educational platforms</b>, or <b>machine learning algorithms</b> that help diagnose rare forms of cancer. We all have a purpose in this world to make an impact, and I believe that computer science provides exponential opportunities to do so.</p>
+              <p>When I'm not coding in Soda Hall, I enjoy <b>chilling</b> with my friends, <b>hiking</b> around the Bay, practicing <b> core power yoga</b>, and reading. You can also check out my blog <a target="_blank" href="https://medium.com/@jadelyn">here</a>.</p>            
+          </div>
+
+         <div class="col-md-3">
+          <img src="img/treePic.jpg" style="width:100%;"/>
+        </div>
         </div>
 
-        <div class="col-md-4">
-          <h3><i class="fa fa-rocket"></i> Work Experience</h3>
-          <p>This past summer (2014), I interned at IBM on the B2B Continuous Engineering team.</p>
-          <p>On a team with two other interns, I developed a sleek, modernized web console for the Connect:Direct file transfer system through utilizing IBM's 10x JAVA framework and leveraging Connect:Direct REST APIs.</p>
-          <p>I'm so excited to be joining the Information Technology team at Salesforce as a software developer intern for the summer of 2015!</p>
-        </div>
-           
-      </div>
-
-      <div class="row" style="margin-top:40px;">
-        <div class="col-md-6 col-md-offset-4">
-          <center>
-          <!-- Social Media Icons -->
-          <a href="https://github.com/jadelyn"><i class="fa fa-github-square fa-3x"></i></a>
-          <a href="https://www.linkedin.com/pub/jade-hua/8b/429/591/"><i class="fa fa-linkedin-square fa-3x"></i> </a>
-          <a href="https://plus.google.com/u/0/108891732508163391102/posts"><i class="fa fa-google-plus-square fa-3x"></i></a>
-        </center>
-
-        
-        </div>
       </div>
     </div>
-  </div>
 
-
-
-    <!-- RESUME AREA -->
-    <div class="container-fluid">
-    
-     <div class="full">
-
-
-      <div id="resume" class="resumeArea">
-         <div id="about" class="intro">
-           <div class="section">
-            <h4>Resume</h4>
-      </div>
-        <div class="container">
-
-
-
-          <div class="row">
-            <div>
-             <a class='top-button' href='.header'><i class="fa fa-arrow-circle-up fa-3x"></i></a>
-           </div>
-                 
-
-              <div class="resumeHeader">
-                <center>
-                  <h1><b>Jade</b>Hua</h1>
-                  <p> 
-                  Berkeley, CA • jadehua@berkeley.edu • (650) 862-8128
-                  </p>
-                </center>
-              </div>
-            <div class="col-md-8">
-              <hr>
-              <h4>Work Experience</h4>
-
-               <p>
-                <span class="blah">IBM</span> <span id="date">05/14-Present</i></span> 
-              <br>
-                Software Developer Intern</i>
-                <ul>
-                  <li>
-                    Developed a sleek, modernized Connect:Direct web console through IBM's JAVA 10x UI framework and leveraging C:D REST APIs 
-                  </li>
-                  <li>
-                    Product development focused on globalization and increased accessibility for users 
-                  </li>
-                  <li>
-                    Implemented iterative testing through JUnit tests and written test scripts for individual modules
-                  </li>
-                </p>
-                </ul>
-
-              <p>
-                <span class="blah">UC Berkeley Graduate Assembly</b></span> <span id="date">06/13-05/14</i></span><br>
-              
-                Web Developer/IT Administrator</i>
-              
-                <ul>
-                  <li>
-                    Lead developer of UC Berkeley’s Graduate Assembly’s website using Drupal, HTML5, CSS, and jQuery.
-                  </li>
-                  <li>
-                    In charge of all Information Technology in Graduate Assembly's business office
-                  </li>
-                  <li>
-                    Redesigned 'The Berkeley Graduate' website for the 2013-14 school year
-                  </li>
-                  <li>
-                    Developed ASUC’s Perspectives Showcase website 
-                  </li>
-                </p>
-                </ul>
+    <div id="exp" class="experience">
+      <div class="vert-text">
+     
+          <div clas="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="row" style="margin-bottom:5%;">
+                  <a class="brand" href="#">EXP</a>
+                </div>  
 
             
-              <p>
-              <span class="blah">UC Berkeley Robotic Learning Lab</b></span> <span id="date">06/12-08/12</i></span><br>
-              
-                Undergraduate Student Researcher: Level III</i>
-              
-                <ul>
-                  <li>
-                    Student researcher under EECS Professor Pieter Abbeel
-                  </li>
-                  <li>
-                    Built web application to model Bayesian Networks using JavaScript and JointJS
-                  </li>
-                  <li>
-                    Bayesian Networks application allows users to perform real time queries such as: inference by enumeration, variable elimination, and d-Separation
-                  </li>
 
-                </ul>
-      
-            </div>
+                <div class="row">
+                <a href="#companies"><h1 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h1></a>
 
-              <div class="col-md-4">
-                <div class="block2">
+                </div>
 
-                <hr>
-                 <h4>Education</h4>
-              <p><b>University of California, Berkeley</b><br>
-                Expected Graduation Date: May 2016<br>
-                B.S. Electrical Engineering and Computer Science 
-              </p>
-
-              <hr>
-              <h4>Coursework</h4>
-              <p>Structure & Interpretation of Computer Programs<br>Data Structure and Algorithmic Analysis<br>Discrete Mathematics and Probability<br>Great Ideas in Computer Architecture      <br>Introduction to Artificial Intelligence <br>
-              Introduction to iOS Development<br>
-               <hr>
-              <h4>Skills</h4>
-              <p>JAVA (4+ yrs), Python (2+ yrs), C (1 yr), MIPS (1 yr)<br>
-                HTML5, CSS, Javascript, jQuery (2 yrs) <br>
-                Git, Adobe Photoshop, Graphic Design</p>
-
-
-             <div class="print">
-              <a target="_blank" href="jhuaResume.pdf" class="btn btn-default btn-primary"><span class="glyphicon glyphicon-download-alt"></span> print</a>
-              </div>
-            </div>
-            
             </div>
           </div>
+
+         
         </div>
-      </div>
+
     </div>
 
+    <div class="container-fluid" id="companies">
+      <a class='top-button' href='#top'><i class="fa fa-arrow-circle-up fa-3x"></i></a>
+    </div>
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script type='text/javascript' src='js/script.js'></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <div class="container" style="margin-top:5%; padding-bottom:120px;">
 
-    <!-- Custom JavaScript -->
-    <script src="js/script.js"></script>
+<!--       <h2><i class="glyphicon glyphicon-console"></i> Experience</h2><br/>
+ -->    <div class="row" id="salesforce">
+          <div class="col-md-4">
+            <center><img src="img/salesforce2.png"></center>
+          </div>
+
+          <div class="col-md-8">
+            <p>I'm currently a Software Engineering Intern on the Dreamforce team developing an iOS application and APEX REST classes. </p>
+
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="row">
+
+          
+           <div class="col-md-4">
+            <center><img src="img/ibm2.jpg" style="width:65%;"></center>
+          </div>
+
+          <div class="col-md-8">
+            <p>I interned at IBM in the summer of 2014 on the B2B Continuous Engineering team. On a team with two other interns, I developed a sleek, modernized web console for the Connect:Direct file transfer system through utilizing IBM's 10x JAVA framework and leveraging Connect:Direct REST APIs.</p>
+
+          </div>
 
 
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-md-4">
+            <center><img src="img/lhs.png" style="width:65%"></center>
+          </div>
+
+          <div class="col-md-8">
+            <p>I was a full-stack student developer at the Lawrence Hall of Science. I led development on both the frontend and backend of LHS's new fully responsive site. I also worked on other educational web/mobile applications such as <a target="_blank" href="http://nysci.org/learnxdesign/"><b>Learn x Design</b></a> and <a target="_blank" href="http://terc.ucdavis.edu/research/nearshore/citizen-science-app.html"><b>Lake Tahoe citizen science app</b></a>. </p>
+          </div>
+        </div>
+
+
+
+    </div>
+
+    <div id="projects" class="experience">
+      <div class="vert-text">
+     
+          <div clas="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="row" style="margin-bottom:5%;">
+                  <a class="brand" href="#">PROJ</a>
+                </div>  
+
+            
+                <div class="row">
+                <a href="#about"><h1 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h1></a>
+
+                </div>
+
+            </div>
+          </div>
+
+         
+        </div>
+
+    </div>
+
+    <div class="container" style="margin-top:5%; padding-bottom:50px;">
+      <div class="row">
+        <center>  
+        <h1><span class="glyphicon glyphicon-wrench"></span> This area is under construction! </h1>
+
+        </center>
+
+
+        </div> 
+      </div>
+
+    <div class="container-fluid" id="footer-links">
+
+        <h1><a href="https://github.com/jadelyn"><i class="fa fa-github-square fa-3x"></i></a>
+              <a href="https://www.linkedin.com/pub/jade-hua/8b/429/591/"><i class="fa fa-linkedin-square fa-3x"></i> </a>
+
+             <a href="mailto:jadehua@berkeley.edu"><i class="fa fa-envelope-square fa-3x"></i></a>
+        </h1>
+
+    </div>
 
   </body>
 
