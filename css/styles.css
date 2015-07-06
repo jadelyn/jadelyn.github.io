@@ -94,6 +94,7 @@ p {
   line-height: ;
   color:black;  /*grey*/
   font-size:20px;
+  margin-bottom: 0px;
 }
 
 #footer-links {
