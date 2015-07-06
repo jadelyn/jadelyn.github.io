@@ -8,7 +8,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type='text/javascript' src='js/script.js'></script>
-
+    <script src="js/flip.js"></script>
 
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
@@ -79,7 +79,7 @@
                 </div>
 
                 <div class="row">
-                <a href="#about"><h1 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h1></a>
+                <a href="#top1"><h1 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h1></a>
 
                 </div>
 
@@ -92,7 +92,7 @@
     </div>
 
     <div class="container-fluid">
-      <a class='top-button' href='#top'><i class="fa fa-arrow-circle-up fa-3x"></i></a>
+      <a class='top-button' id="top1"><i class="fa fa-arrow-circle-up fa-3x"></i></a>
     </div>
 
     <div class="container">
@@ -124,14 +124,14 @@
      
           <div clas="row">
             <div class="col-md-6 col-md-offset-3">
-                <div class="row" style="margin-bottom:5%;">
+                <div class="row">
                   <a class="brand" href="#">EXP</a>
                 </div>  
 
             
 
                 <div class="row">
-                <a href="#companies"><h1 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h1></a>
+                  <a href="#companies"><h2 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h1></a>
 
                 </div>
 
@@ -149,52 +149,74 @@
 
     <div class="container" style="margin-top:5%; padding-bottom:120px;">
 
-<!--       <h2><i class="glyphicon glyphicon-console"></i> Experience</h2><br/>
- -->    <div class="row" id="salesforce">
-          <div class="col-md-4">
-            <center><img src="img/salesforce2.png"></center>
-          </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card" id="sfdc">
+            <div class="front">
+              <center><img src="img/salesforce2.png"></center>
+            </div>
 
-          <div class="col-md-8">
-            <p>I'm currently a Software Engineering Intern on the Dreamforce team developing an iOS application with APEX REST endpoints. </p>
-
-          </div>
-
-        </div>
-
-        <hr>
-
-        <div class="row">
-
-          
-           <div class="col-md-4">
-            <center><img src="img/ibm2.jpg" style="width:65%;"></center>
-          </div>
-
-          <div class="col-md-8">
-            <p>I interned at IBM in the summer of 2014 on the B2B Continuous Engineering team. On a team with two other interns, I developed a sleek, modernized web console for the Connect:Direct file transfer system through utilizing IBM's 10x JAVA framework and leveraging Connect:Direct REST APIs.</p>
-
-          </div>
-
-
-        </div>
-
-        <hr>
-
-        <div class="row">
-          <div class="col-md-4">
-            <center><img src="img/lhs.png" style="width:65%"></center>
-          </div>
-
-          <div class="col-md-8">
-            <p>I was a full-stack student developer at the Lawrence Hall of Science. I led development on both the frontend and backend of LHS's new fully responsive site. I also worked on other educational web/mobile applications such as <a target="_blank" href="http://nysci.org/learnxdesign/"><b>Learn x Design</b></a> and <a target="_blank" href="http://terc.ucdavis.edu/research/nearshore/citizen-science-app.html"><b>Lake Tahoe citizen science app</b></a>. </p>
+            <div class="back">
+              <p>I'm currently a Software Engineering Intern on the Dreamforce team developing an iOS application with APEX REST endpoints. </p>
+            </div>
           </div>
         </div>
 
+        <div class="col-md-6">
+          <div class="card" id="ibm">
+            <div class="front">
+              <center><img src="img/ibm2.jpg"></center>
 
+            </div>
 
+            <div class="back">
+              <p>I interned at IBM in the summer of 2014 on the B2B Continuous Engineering team. I developed a sleek, modernized web console for the Connect:Direct file transfer system through utilizing IBM's 10x JAVA framework and leveraging Connect:Direct REST APIs.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
 
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-6" style="margin-bottom: 150px;">
+          <div class="card" id="lhs">
+            <div class="front">
+              <center><img src="img/lhs2.png"></center>
+            </div>
+
+            <div class="back">
+              <p>I was a full-stack student developer at the Lawrence Hall of Science. I led development on both the frontend and backend of LHS's new fully responsive site. I also worked on other educational web/mobile applications such as <a target="_blank" href="http://nysci.org/learnxdesign/"><b>Learn x Design</b></a> and <a target="_blank" href="http://terc.ucdavis.edu/research/nearshore/citizen-science-app.html"><b>Lake Tahoe citizen science app</b></a>. </p>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+          <div class="card" id="break">
+            <div class="front">
+              <center><img src="img/breakout.jpeg"></center>
+            </div>
+
+            <div class="back">
+              <p>I teach kids <a href="http://breakoutmentors.com/meet-our-mentors-Jade-Hua/" target="_blank"><b>one-on-one coding lessons</b></a> where we explore various computer science topics and apply them in creating fun, interactive games. </p>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+          
+          
     <div id="projects" class="experience">
       <div class="vert-text">
      
@@ -206,7 +228,7 @@
 
             
                 <div class="row">
-                <a href="#about"><h1 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h1></a>
+                <a href="#proj-des"><h2 class="helloWorld"><span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></h2></a>
 
                 </div>
 
@@ -218,12 +240,14 @@
 
     </div>
 
-    <div class="container" style="margin-top:5%; padding-bottom:50px;">
+    <div class="container" style="margin-top:5%; padding-bottom:50px;" id="proj-des">
       <div class="row">
         <center>  
+        <br>
         <h1><span class="glyphicon glyphicon-wrench"></span> This area is under construction! </h1>
 
         </center>
+        <br><br>
 
 
         </div> 
@@ -231,10 +255,10 @@
 
     <div class="container-fluid" id="footer-links">
 
-        <h1><a href="https://github.com/jadelyn"><i class="fa fa-github-square fa-3x"></i></a>
-              <a href="https://www.linkedin.com/pub/jade-hua/8b/429/591/"><i class="fa fa-linkedin-square fa-3x"></i> </a>
+        <h1><a href="https://github.com/jadelyn"><i class="fa fa-github-square fa-2x"></i></a>
+              <a href="https://www.linkedin.com/pub/jade-hua/8b/429/591/"><i class="fa fa-linkedin-square fa-2x"></i> </a>
 
-             <a href="mailto:jadehua@berkeley.edu"><i class="fa fa-envelope-square fa-3x"></i></a>
+             <a href="mailto:jadehua@berkeley.edu"><i class="fa fa-envelope-square fa-2x"></i></a>
         </h1>
 
     </div>
